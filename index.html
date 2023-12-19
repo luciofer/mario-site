@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <title> Super Mario Bros</title>
+</head>
+<body>
+    <div class="logo-wrapper">
+        <img src="./src/assets/logo.png" alt="It shows the Super Mario Bross logo" class="logo-mario">
+        <p>Super Plumbers Mario and Luigi - Solving Your Problems with Style </p>
+        <p> Mario is a hardworking, friendly, short and mighty Italian  plumber <br>who lives in the fictional Super Mario land of the Mushroom Kingdom <br>with Luigi, his younger, taller brother.</p>
+        <button id="contact-btn">Contact Us</button>    
+    </div>
+
+    <div class="side-wrapper">
+        <img src="./src/assets/mario.png" alt="Mario and Luigi stating and holding plumber tools" class="mario-luigi">
+    </div>
+
+    <div class="video-mario">
+        <video src="./src/assets/video.mp4" autoplay muted loop></video>
+        <div class="mask-video"></div>
+    </div>
+
+    <div class="contact-wrapper-hidden" id="contact-form" me>
+        <form action="#" class="contact-us" method="POST">
+            <input type="text" placeholder="Name" name="name">
+            <input type="tel" placeholder="Phone" name="phone">
+            <textarea placeholder="Describe the problem" name="info"></textarea>
+            <button type="submit" id="send-btn">Send Information</button>
+        </form>
+    </div>
+    
+<script type="text/javascript" src="./src/index.js"></script>
+</body>
+</html>
